@@ -3,6 +3,12 @@
 
 body
 {
+	background-image: url(2cellos.jpg);
+	background-color: #1c2222;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: left top;
+	font-family: 'Lucida Console', Monaco, monospace;
 	background-size: auto 100%;
 	line-height:2em;
 }
@@ -11,16 +17,23 @@ body
 {
 	background-color: rgba(255,255,255,0.7);
 	box-shadow: 10px 10px 10px 5px rgba(0,0,0,0.7);
+	width: 45%;
+	margin-left: 45%;
+	margin-top: 2%;
+	padding: 25px;
 }
 
 h2, dt
 {
 	font-variant:small-caps;
+	font-size: x-large;
+	font-weight: bold;
 }
 
 ul
 {
 	list-style-position:inside;
+	list-style-image: url(Basskey.png);
 }
 
 ol
@@ -32,6 +45,11 @@ ol
 .tabla
 {
 	width:100%;
+	border-spacing: 0px;
+}
+td
+{
+	padding: 0px;
 }
 
 hr
@@ -44,5 +62,24 @@ iframe
 {
 	width:560px;
 	height:315px; 
+}
+p, dl
+{
+text-align: justify;
+}
+h1, h2, dt
+{
+	color: #16203b;
+}
+.kepek
+{
+	width: 20%;
+	float: right;
+	margin-left: 5%;
+
+}
+#bal
+{
+	width: 20%;
 }
 
